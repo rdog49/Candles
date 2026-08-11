@@ -53,7 +53,7 @@ ul{
     background-color: #7B6152;
     width: 100%;
 }
-header{
+.header{
     background-color: #FFF8F3;
 }
 
@@ -83,6 +83,13 @@ header{
     top: -3px;
 }
 /*header styles end*/
+
+/*top styles start*/
+.main{
+    background-color: #FFF8F3;
+}
+/*top styles end*/
+
 
 /*footer styles start*/
 .footer{
