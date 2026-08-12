@@ -165,6 +165,9 @@ button{
     .top__img{
         left: 300px;
     }
+    .top__text{
+        margin-bottom: 30px;
+    }
 }
 @media(max-width: 900px){
     .footer__inner{
@@ -192,6 +195,20 @@ button{
         left: -16px;
         top: -2px;
         background-size: cover;
+    }
+    .top__content{
+        width: 230px;
+    }
+    .top__title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .top__text{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .top__img{
+        left: 180px;
     }
 }
 @media(max-width: 640px){
@@ -237,6 +254,49 @@ button{
     .footer{
         padding: 50px 0;
         font-size: 14px;
+    }
+}
+@media(max-width: 480px){
+    .top__img-l{
+        width: 309px;
+        left: 167px;
+    }
+    .top__content{
+        width: 180px;
+    }
+    .top__title{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .top__text{
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+    .top__buy{
+        font-size: 10px;
+        padding: 14px 41px;
+    }
+    .top{
+        padding: 30px 0 50px;
+    }
+}
+@media(max-width: 360px){
+    .top__img-l{
+        width: 153px;
+    }
+    .top__img{
+        left: auto;
+        right: 0;
+    }
+    .top__content{
+        width: 200px;
+        padding: 20px 0 0;
+    }
+    .top__title{
+        font-size: 18px;
+    }
+    .top__text{
+        font-size: 10px;
     }
 }
 /*adaptive styles end*/
