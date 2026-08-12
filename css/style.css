@@ -12,7 +12,6 @@ html{
 body{
     color: #000;
     font-family: 'Comfortaa', cursive;
-    /* font-family: 'Yeseva One', cursive; */
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -26,6 +25,12 @@ a{
 
 ul{
     list-style: none;
+}
+button{
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
 }
 
 /*main styles end*/
@@ -41,10 +46,7 @@ ul{
     display: none;
     width: 30px;
     height: 25px;
-    border: none;
     background-color: transparent;
-    padding: 0;
-    border-radius: 0;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -53,7 +55,7 @@ ul{
     background-color: #7B6152;
     width: 100%;
 }
-header{
+.header{
     background-color: #FFF8F3;
 }
 
@@ -84,6 +86,44 @@ header{
 }
 /*header styles end*/
 
+/*top styles start*/
+.main{
+    background-color: #FFF8F3;
+    overflow-x: clip;
+}
+.top{
+    padding: 40px 0 150px;
+}
+.top__inner{
+    position: relative;
+}
+.top__content{
+    width: 370px;
+    padding: 150px 0 250px;
+}
+.top__title{
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.top__text{
+    margin-bottom: 48px;
+}
+.top__buy{
+    padding: 18px 54px;
+    background: #FFBD59;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 600;
+}
+.top__img{
+    position: absolute;
+    top: 0;
+    left: 240px;
+}
+/*top styles end*/
+
+
 /*footer styles start*/
 .footer{
     padding-top: 40px;
@@ -106,6 +146,7 @@ header{
     display: flex;
     gap: 15px;
 }
+
 /*footer styles end*/
 
 /*adaptive styles start*/
@@ -113,6 +154,19 @@ header{
     .container{
         padding-right: 20px;
         padding-left: 20px;
+    }
+    .top__content{
+        width: 333px;
+        padding: 95px 0 70px;
+    }
+    .top__img-l{
+        width: 655px;
+    }
+    .top__img{
+        left: 300px;
+    }
+    .top__text{
+        margin-bottom: 30px;
     }
 }
 @media(max-width: 900px){
@@ -141,6 +195,20 @@ header{
         left: -16px;
         top: -2px;
         background-size: cover;
+    }
+    .top__content{
+        width: 230px;
+    }
+    .top__title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .top__text{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .top__img{
+        left: 180px;
     }
 }
 @media(max-width: 640px){
@@ -186,6 +254,49 @@ header{
     .footer{
         padding: 50px 0;
         font-size: 14px;
+    }
+}
+@media(max-width: 480px){
+    .top__img-l{
+        width: 309px;
+        left: 167px;
+    }
+    .top__content{
+        width: 180px;
+    }
+    .top__title{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .top__text{
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+    .top__buy{
+        font-size: 10px;
+        padding: 14px 41px;
+    }
+    .top{
+        padding: 30px 0 50px;
+    }
+}
+@media(max-width: 360px){
+    .top__img-l{
+        width: 153px;
+    }
+    .top__img{
+        left: auto;
+        right: 0;
+    }
+    .top__content{
+        width: 200px;
+        padding: 20px 0 0;
+    }
+    .top__title{
+        font-size: 18px;
+    }
+    .top__text{
+        font-size: 10px;
     }
 }
 /*adaptive styles end*/
