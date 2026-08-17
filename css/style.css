@@ -282,6 +282,16 @@ button{
     .about__list{
         padding-left: 20px;
     }
+    .section__inner{
+        grid-template-columns: 290px auto;
+        gap: 0 10px;
+    }
+    .products__content{
+        gap: 67px;
+    }
+    .section__text{
+        font-size: 10px;
+    }
 }
 @media(max-width: 900px){
     .footer__inner{
@@ -294,6 +304,13 @@ button{
     }
     .footer__social{
         justify-content: center;
+    }
+    .section__inner{
+        grid-template-columns: 200px auto;
+        gap: 0 10px;
+    }
+    .products__content{
+        gap: 30px 16px;
     }
 }
 @media(max-width: 768px){
@@ -352,6 +369,31 @@ button{
     .about__item-img--3{
         width: 120px;
     }
+    .products__item{
+        width: 200px;
+    }
+    .products__item-img{
+        width: 200px;
+        margin-bottom: 6px;
+    }
+    .button{
+        font-size: 12px;
+    }
+    .product__item-text{
+        font-size: 8px;
+        margin-bottom: 18px;
+    }
+    .product__item-price{
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+    .products__item-title{
+        font-size: 12px;
+        margin-bottom: 9px;
+    }
+    .button{
+        padding: 10px 26px;
+    }
 }
 @media(max-width: 640px){
     .container{
@@ -380,6 +422,13 @@ button{
     }
     .header__menu{
         order: 1;
+    }
+    .section__inner{
+        display: block;
+    }
+    .section__descr{
+        margin-bottom: 30px;
+        text-align: center;
     }
 }
 @media(max-width: 500px){
@@ -446,6 +495,19 @@ button{
     .about__inner{
         align-items: flex-end;
     }
+    .about{
+        margin-bottom: 50px;
+    }
+    .section{
+        padding-bottom: 50px;
+    }
+    .section__content-descr{
+        padding-bottom: 62px;
+    }
+    .section__descr{
+        margin: 0 auto 30px;
+        width: 300px;
+    }
 }
 @media(max-width: 360px){
     .top__img-l{
@@ -486,6 +548,33 @@ button{
     }
     .about__item-img--2{
         display: none;
+    }
+    .section__descr{
+        margin: 0 25px;
+        width: 235px;
+    }
+    .products__item{
+        width: 150px;
+    }
+    .products__content{
+        gap: 40px 7px;
+    }
+    .products__item-img{
+        width: 150px;
+    }
+    .button{
+        font-size: 8px;
+        padding: 8px 20px;
+    }
+    .product__item-price{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .products__item-title{
+        font-size: 10px;
+    }
+    .product__item-text{
+        margin-bottom: 16px;
     }
 }
 /*adaptive styles end*/
