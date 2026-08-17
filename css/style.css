@@ -35,8 +35,39 @@ button{
 .title{
     margin-bottom: 15px;
     font-size: 40px;
+    font-weight: 400;
 }
-
+.section{
+    padding-bottom: 150px;
+}
+.button{
+    padding: 18px 54px;
+    background: #FFBD59;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 600;
+}
+.section--decor{
+    position: relative;
+}
+.section--decor::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(../images/section-decor.png);
+    width: 22px;
+    height: 30px;
+}
+.section--decor::after{
+    content: '';
+    position: absolute;
+    bottom: 13px;
+    left: 22px;
+    height: 1px;
+    background-color: #7B6152;
+    width: 1000%;
+}
 /*main styles end*/
 
 /*header styles start*/
@@ -109,6 +140,7 @@ button{
     font-family: 'Yeseva One', cursive;
     font-size: 30px;
     margin-bottom: 15px;
+    font-weight: 400;
 }
 .top__text{
     margin-bottom: 48px;
@@ -179,24 +211,6 @@ button{
     flex-basis: 930px;
     position: relative;
 }
-.about__list::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-image: url(../images/section-decor.png);
-    width: 22px;
-    height: 30px;
-}
-.about__list::after{
-    content: '';
-    position: absolute;
-    bottom: 13px;
-    left: 22px;
-    height: 1px;
-    background-color: #7B6152;
-    width: 1000%;
-}
 .about__item-img{
     margin-bottom: 10px;
 }
@@ -210,12 +224,36 @@ button{
     display: grid;
     grid-template-columns: 370px auto;
 }
-.section__descr{
-    flex-basis: 370px;
-}
 .section__content-descr{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
+    padding-bottom: 92px;
+}
+.products__content{
+    gap: 50px 90px;
+}
+.products__item{
+    width: 290px;
+    margin: 0 auto;
+    text-align: center;
+}
+.products__item-img{
+    margin-bottom: 8px;
+}
+.product__item-price{
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+.products__item-title{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+.product__item-text{
+    margin-bottom: 27px;
 }
 /*products styles end*/
 
