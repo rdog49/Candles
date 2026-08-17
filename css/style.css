@@ -257,6 +257,10 @@ button{
 }
 /*products styles end*/
 
+/*steps styles start*/
+
+/*steps styles end*/
+
 /*adaptive styles start*/
 @media(max-width: 1000px){
     .container{
