@@ -301,12 +301,29 @@ button{
 }
 .courses__title{
     padding: 15px;
+    left: 11px;
+    top: 45%;
 }
 .courses__time{
     padding: 7px 10px;
+    left: -1px;
+    left: 11px;
+    top: 60%;
+}
+.courses__time span{
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
 }
 .courses__prise{
     padding: 19px 10px;
+    right: 0px;
+    bottom: 2px;
+}
+.courses__title,
+.courses__time,
+.courses__prise{
+    background-color: #bea495;
+    position: absolute;
 }
 /*courses styles end*/
 
