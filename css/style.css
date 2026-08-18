@@ -292,6 +292,24 @@ button{
 }
 /*steps styles end*/
 
+/*courses styles start*/
+.courses__item-img{
+    position: relative;
+    color: #FFF;
+    font-size: 11px;
+    font-family: 'Yeseva One', cursive;
+}
+.courses__title{
+    padding: 15px;
+}
+.courses__time{
+    padding: 7px 10px;
+}
+.courses__prise{
+    padding: 19px 10px;
+}
+/*courses styles end*/
+
 /*adaptive styles start*/
 @media(max-width: 1050px){
      .steps__list{
