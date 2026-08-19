@@ -421,6 +421,12 @@ button{
 }
 /*feedback styles end*/
 
+/*certificats styles start*/
+.certificats__slider{
+    width: 760px;
+}
+/*certificats styles end*/
+
 /*adaptive styles start*/
 @media(max-width: 1050px){
      .steps__list{
