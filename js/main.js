@@ -15,7 +15,7 @@ const swiperOne  = new Swiper('.feedback__slider', {
 
 const swiperTwo = new Swiper('.certificats__slider', {
     loop: true,
-    slidesPerView: 2,
+    slidesPerView: 3,
     spaceBetween: 20,
     pagination: {
     el: '.swiper-pagination',
