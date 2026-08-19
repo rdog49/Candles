@@ -403,6 +403,12 @@ button{
     .section__text{
         font-size: 10px;
     }
+    .team__content{
+        gap: 30px 20px;
+    }
+    .team{
+        padding: 50px 0;
+    }
 }
 @media(max-width: 900px){
     .footer__inner{
@@ -542,6 +548,21 @@ button{
         right: 0px;
         bottom: 9px;
     }
+    .team__img{
+        width: 140px;
+    }
+    .team__item-box{
+        padding: 9px 6px 10px;
+        width: 109px;
+        bottom: 8px;
+        right: -24px;
+    }
+    .team__item-name{
+        font-size: 8px;
+    }
+    .team__item-descr{
+        font-size: 7px;
+    }
 }
 @media(max-width: 640px){
     .container{
@@ -577,6 +598,10 @@ button{
     .section__descr{
         margin-bottom: 30px;
         text-align: center;
+    }
+    .team__item-box{
+        right: auto;
+        left: 80px;
     }
 }
 @media(max-width: 500px){
@@ -659,6 +684,9 @@ button{
     .steps__list{
         gap: 25px 40px;
     }
+    .team{
+        margin-bottom: 50px;
+    }
 }
 @media(max-width: 404px){
     .steps__list{
@@ -672,6 +700,23 @@ button{
     }
     .courses__content{
         grid-template-columns: auto;
+    }
+    .team__content{
+        grid-template-columns: auto;
+    }
+    .team__img{
+        width: 204px;
+    }
+    .team__item-name{
+        font-size: 12px;
+    }
+    .team__item-descr{
+        font-size: 10px;
+    }
+    .team__item-box{
+        width: 151px;
+        bottom: 15px;
+        left: 148px;
     }
 }
 @media(max-width: 360px){
