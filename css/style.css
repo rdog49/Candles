@@ -360,6 +360,39 @@ button{
 }
 /*team styles end*/
 
+/*feedback styles start*/
+.feedback__item{
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0 16px;
+}
+.feedback__item-video{
+    position: relative;
+}
+.feedback__item-videobtn{
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.feedback__item-sociallink{
+    margin-bottom: 12px;
+}
+.feedback__item-name{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: 'Yeseva One', cursive;
+}
+.feedback__item-text{
+    margin-bottom: 15px;
+}
+.feedback__content{
+    padding-bottom: 110px;
+}
+/*feedback styles end*/
+
 /*adaptive styles start*/
 @media(max-width: 1050px){
      .steps__list{
