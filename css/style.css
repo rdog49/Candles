@@ -160,32 +160,6 @@ button{
 }
 /*top styles end*/
 
-
-/*footer styles start*/
-.footer{
-    padding-top: 40px;
-    padding-bottom: 35px;
-}
-.footer__inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer__contacts{
-    display: flex;
-    flex-direction: column;
-    width: 230px;
-}
-.email{
-    margin: 17px 0;
-}
-.footer__social{
-    display: flex;
-    gap: 15px;
-}
-
-/*footer styles end*/
-
 /*about styles start*/
 .about{
     background-color: #A5978E;
@@ -517,6 +491,31 @@ button{
 }
 /*contacts styles end*/
 
+/*footer styles start*/
+.footer{
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+.email{
+    margin: 17px 0;
+}
+.footer__social{
+    display: flex;
+    gap: 15px;
+}
+
+/*footer styles end*/
+
 /*adaptive styles start*/
 @media(max-width: 1050px){
      .steps__list{
@@ -524,6 +523,10 @@ button{
     }
     .steps__item{
         gap: 0 30px;
+    }
+    .promo__link{
+        min-width: 135px;
+        text-align: center;
     }
 }
 @media(max-width: 1000px){
@@ -580,6 +583,12 @@ button{
     }
     .certificats__content .swiper-pagination{
         text-align: center;
+    }
+    .promo__text{
+        padding-left: 0;
+    }
+    .contacts__img{
+        width: 335px;
     }
 }
 @media(max-width: 900px){
@@ -747,6 +756,31 @@ button{
     .feedback__item-content{
         padding-bottom: 45px;
     }
+    .promo__text{
+        font-size: 15px;
+    }
+    .promo__link{
+        font-size: 12px;
+    }
+    .promo{
+        padding: 67px 0;
+    }
+    .contacts__img{
+        width: 187px;
+        object-fit: cover;
+    }
+    .form{
+        width: 440px;
+        gap: 0 20px;
+        padding: 30px 22px;
+    }
+    .form__title{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .form__btn{ 
+        margin-top: 10px;
+    }
 }
 @media(max-width: 640px){
     .container{
@@ -878,6 +912,18 @@ button{
         width: 620px;
         margin: 0 auto;
     }
+    .promo{
+        padding: 42px 0;
+    }
+    .contacts__img{
+        display: none;
+    }
+    .form__input::placeholder{
+        font-size: 10px;
+    }
+    .contacts{
+        padding-top: 50px;
+    }
 }
 @media(max-width: 404px){
     .steps__list{
@@ -1004,6 +1050,9 @@ button{
         margin: 0 auto;
         left: 0;
         max-width: 100px;
+    }
+    .promo__text{
+        margin-right: 50px;
     }
 }
 /*adaptive styles end*/
