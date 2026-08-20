@@ -471,6 +471,52 @@ button{
 }
 /*promo styles end*/
 
+/*contacts styles start*/
+.contacts{
+    padding: 150px 0 50px;
+}
+.contacts__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form{
+    background-color: white;
+    width: 664px;
+    padding: 75px 42px 67px;
+}
+.form__title{
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.form__input{
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    padding: 7px 10px;
+    color: #000;
+}
+.form__input::placeholder{
+    color: #b3b3b3;
+    font-size: 14px;
+    font-family: comfortaa;
+    font-style: normal;
+    font-weight: 400;
+}
+.form__btn{
+    background-color: #FFBD59;
+    font-family: comfortaa;
+    font-size: 14px;
+    color: #272727;
+    margin-top: 36px;
+    padding: 17px 34px;
+}
+/*contacts styles end*/
+
 /*adaptive styles start*/
 @media(max-width: 1050px){
      .steps__list{
